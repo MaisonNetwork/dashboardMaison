@@ -59,7 +59,7 @@ export default (function () {
           name : 'USA : 250',
         }, {
           latLng : [55.37, -3.41],
-          name : 'UK   : 250',
+          name : 'Joon   : BOSS',
         }, {
           latLng : [25.20, 55.27],
           name : 'UAE : 250',
