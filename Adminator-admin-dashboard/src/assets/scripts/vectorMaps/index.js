@@ -49,6 +49,9 @@ export default (function () {
         },
 
         markers : [{
+          latLng : [46, 25],
+          name : 'ROMANIA : 420',
+        },{
           latLng : [21.00, 78.00],
           name : 'INDIA : 350',
         }, {
@@ -72,6 +75,7 @@ export default (function () {
               'AU': 760,
               'IN': 200,
               'GB': 120,
+              'RO': 130,
             },
             scale: ['#03a9f3', '#02a7f1'],
             normalizeFunction: 'polynomial',
