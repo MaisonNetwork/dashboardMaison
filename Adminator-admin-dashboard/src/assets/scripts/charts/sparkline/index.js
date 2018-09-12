@@ -9,15 +9,56 @@ export default (function () {
   // ------------------------------------------------------
 
   const drawSparklines = () => {
-
-        if ($('#total_houses').length > 0) {
+    if ($('#total_houses').length > 0) {
       $('#total_houses').sparkline([0, 1, 2, 3, 5, 8, 13, 21, 24, 45], {
         type: 'bar',
         height: '20',
         barWidth: '3',
         resize: true,
         barSpacing: '3',
+        barColor: '#03a9f3',
+      });
+    }
+    
+    if ($('#investments').length > 0) {
+      $('#investments').sparkline([0, 0, 0, 0, 0, 4000, 2000, 3000, 1000, 1000, 500, 500], {
+        type: 'bar',
+        height: '20',
+        barWidth: '3',
+        resize: true,
+        barSpacing: '3',
+        barColor: '#03a9f3',
+      });
+    }
+
+    if ($('#cum-investments').length > 0) {
+      $('#cum-investments').sparkline([0, 0, 0, 0, 0, 4000, 6000, 9000, 10000, 11000, 11500, 12000], {
+        type: 'bar',
+        height: '20',
+        barWidth: '3',
+        resize: true,
+        barSpacing: '3',
+        barColor: '#f96262',
+      });
+    }
+    if ($('#contribution').length > 0) {
+      $('#contribution').sparkline([0, 0, 0, 0, 0, 1300, 1300, 1300, 1300, 1300, 1300, 1300], {
+        type: 'bar',
+        height: '20',
+        barWidth: '3',
+        resize: true,
+        barSpacing: '3',
         barColor: '#4caf50',
+      });
+    }
+    if ($('#cum-contribution').length > 0) {
+      $('#cum-contribution').sparkline([0, 0, 0, 0, 0, 1300, 2600, 3900, 5200, 6500, 7800, 9100], {
+        type: 'bar',
+        height: '20',
+        barWidth: '3',
+        resize: true,
+        barSpacing: '3',
+        barColor: '#9675ce',
       });
     }
 
