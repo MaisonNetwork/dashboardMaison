@@ -16,10 +16,10 @@ export default (function () {
         barWidth: '3',
         resize: true,
         barSpacing: '3',
-        barColor: '#03a9f3',
+        barColor: '#4caf50',
       });
     }
-    
+
     if ($('#investments').length > 0) {
       $('#investments').sparkline([0, 0, 0, 0, 0, 4000, 2000, 3000, 1000, 1000, 500, 500], {
         type: 'bar',
