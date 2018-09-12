@@ -9,6 +9,18 @@ export default (function () {
   // ------------------------------------------------------
 
   const drawSparklines = () => {
+
+        if ($('#total_houses').length > 0) {
+      $('#total_houses').sparkline([0, 1, 2, 3, 5, 8, 13, 21, 24, 45], {
+        type: 'bar',
+        height: '20',
+        barWidth: '3',
+        resize: true,
+        barSpacing: '3',
+        barColor: '#4caf50',
+      });
+    }
+
     if ($('#sparklinedash').length > 0) {
       $('#sparklinedash').sparkline([0, 5, 6, 10, 9, 12, 4, 9], {
         type: 'bar',
