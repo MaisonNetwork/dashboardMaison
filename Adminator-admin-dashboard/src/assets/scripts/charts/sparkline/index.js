@@ -10,7 +10,7 @@ export default (function () {
 
   const drawSparklines = () => {
     if ($('#total_houses').length > 0) {
-      $('#total_houses').sparkline([0, 1, 2, 3, 5, 8, 13, 21, 24, 45], {
+      $('#total_houses').sparkline([0, 0, 0, 500, 1000, 7000, 15476, 18587, 15786, 25837, 30265], {
         type: 'bar',
         height: '20',
         barWidth: '3',
@@ -74,7 +74,7 @@ export default (function () {
     }
 
     if ($('#sparklinedash2').length > 0) {
-      $('#sparklinedash2').sparkline([0, 5, 6, 10, 9, 12, 4, 9], {
+      $('#sparklinedash2').sparkline([0, 0, 0, 20, 40, 280, 625, 729, 638, 937, 1358], {
         type: 'bar',
         height: '20',
         barWidth: '3',
@@ -85,7 +85,7 @@ export default (function () {
     }
 
     if ($('#sparklinedash3').length > 0) {
-      $('#sparklinedash3').sparkline([0, 5, 6, 10, 9, 12, 4, 9], {
+      $('#sparklinedash3').sparkline([0, 0, 0, 0, 500, 1230, 2300, 4800, 3529, 5300, 5427], {
         type: 'bar',
         height: '20',
         barWidth: '3',
@@ -96,13 +96,13 @@ export default (function () {
     }
 
     if ($('#sparklinedash4').length > 0) {
-      $('#sparklinedash4').sparkline([0, 5, 6, 10, 9, 12, 4, 9], {
+      $('#sparklinedash4').sparkline([1, 3, 4, 5, 5, 6, 6, 7, 7, 7], {
         type: 'bar',
         height: '20',
         barWidth: '3',
         resize: true,
         barSpacing: '3',
-        barColor: '#f96262',
+        barColor: '#ff9800',
       });
     }
   };

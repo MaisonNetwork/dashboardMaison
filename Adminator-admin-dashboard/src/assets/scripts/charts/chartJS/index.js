@@ -15,22 +15,24 @@ export default (function () {
     new Chart(lineCtx, {
       type: 'line',
       data: {
-        labels: ['April', 'May', 'June', 'July', 'August', 'September', 'October'],
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October'],
         datasets: [{
-          label                : 'Series A',
+          label                : 'Your holdings',
           backgroundColor      : 'rgba(237, 231, 246, 0.5)',
           borderColor          : COLORS['deep-purple-500'],
           pointBackgroundColor : COLORS['deep-purple-700'],
           borderWidth          : 2,
-          data                 : [60, 50, 70, 60, 50, 70, 60],
-        }, {
-          label                : 'Series B',
-          backgroundColor      : 'rgba(232, 245, 233, 0.5)',
-          borderColor          : COLORS['blue-500'],
-          pointBackgroundColor : COLORS['blue-700'],
-          borderWidth          : 2,
-          data                 : [70, 75, 85, 70, 75, 85, 70],
-        }],
+          data                 : [0, 0, 0, 500, 1000, 7000, 15476, 18587, 15786, 25837, 30265],
+        },
+        // {
+        //   label                : 'Amount Invested',
+        //   backgroundColor      : 'rgba(232, 245, 233, 0.5)',
+        //   borderColor          : COLORS['blue-500'],
+        //   pointBackgroundColor : COLORS['blue-700'],
+        //   borderWidth          : 2,
+        //   data                 : [0, 0, 0, 0, 4000, 3000, 1000, 2000, 1000, 500, 2000],
+        // }
+      ],
       },
 
       options: {
