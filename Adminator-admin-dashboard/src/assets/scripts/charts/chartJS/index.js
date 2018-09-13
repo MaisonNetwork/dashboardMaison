@@ -15,7 +15,7 @@ export default (function () {
     new Chart(lineCtx, {
       type: 'line',
       data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: ['April', 'May', 'June', 'July', 'August', 'September', 'October'],
         datasets: [{
           label                : 'Series A',
           backgroundColor      : 'rgba(237, 231, 246, 0.5)',
