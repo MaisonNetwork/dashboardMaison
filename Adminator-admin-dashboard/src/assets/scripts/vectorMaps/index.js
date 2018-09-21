@@ -50,7 +50,7 @@ export default (function () {
 
         markers : [{
           latLng : [46, 25],
-          name : 'ROMANIA : 420',
+          name : 'ROMANIA : 120',
         },{
           latLng : [21.00, 78.00],
           name : 'INDIA : 350',
@@ -62,7 +62,7 @@ export default (function () {
           name : 'USA : 250',
         }, {
           latLng : [55.37, -3.41],
-          name : 'Joon   : BOSS',
+          name : 'UK : 130',
         }, {
           latLng : [25.20, 55.27],
           name : 'UAE : 250',
